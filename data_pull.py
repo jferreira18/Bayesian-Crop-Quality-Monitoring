@@ -5,7 +5,7 @@ import pandas as pd
 
 def crop_pull():
         
-    key = '3C7B7C44-4D80-3975-AF68-2423CD934AA5'
+    key = 
 
     url = "https://quickstats.nass.usda.gov/api/api_GET/"
 
@@ -49,7 +49,7 @@ def crop_pull():
     return crop_data
 
 def crop_yield():
-    key = '3C7B7C44-4D80-3975-AF68-2423CD934AA5'
+    key = 
 
     url = "https://quickstats.nass.usda.gov/api/api_GET/"
 
@@ -99,7 +99,7 @@ def crop_yield():
 
 def weather_pull():
         
-    key = 'KmmwiCbiXtqCkSHgXDaoiZPvLIQUwrwT'
+    key = 
 
     url = 'https://www.ncei.noaa.gov/cdo-web/api/v2/data'
 
