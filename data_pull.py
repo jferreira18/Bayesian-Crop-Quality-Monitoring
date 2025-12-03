@@ -147,8 +147,8 @@ def align_data(crop_data, weather_data):
     #print(cd.shape[0])
     #print('wd',wd)
 
-    cd.to_csv('crop_data.csv')
-    wd.to_csv('weather_data.csv')
+    cd.to_csv('crop_dataV2.csv')
+    wd.to_csv('weather_dataV2.csv')
     
 if __name__ == '__main__':
     weather = weather_pull()
